@@ -10,12 +10,12 @@
 
 export const appConfig = {
   // MODULE 1- BACKEND
-  initStateAPI: 'https://5y74oc4jc7.execute-api.us-east-1.amazonaws.com/Prod/InitState/', // e.g. https://12abcdef89.execute-api.us-west-2.amazonaws.com/Prod/InitState/
+  initStateAPI: 'https://qpdrn0mzml.execute-api.us-east-1.amazonaws.com/Prod/InitState/', // e.g. https://12abcdef89.execute-api.us-west-2.amazonaws.com/Prod/InitState/
   // MODULE 2 - REALTIME
   iot: {
-    poolId: 'us-east-1:446a770e-3d4a-4f58-ada6-170c6d6aac61', // e.g. 'us-west-2:1abcdef-1234-abcd-1234-abcde123456'
-    host: 'aytzjnanp414i-ats.iot.us-east-1.amazonaws.com', // e.g. 'ab12ab12abcde.iot.us-east-1.amazonaws.com'
-    region: 'us-east-1' // e.g. 'us-west-1'
+    poolId: '', // e.g. 'us-west-2:1abcdef-1234-abcd-1234-abcde123456'
+    host: '', // e.g. 'ab12ab12abcde.iot.us-east-1.amazonaws.com'
+    region: '' // e.g. 'us-west-1'
   },
   // MODULE 3 - PHOTOS
   photoUploadURL: '', // e.g. https://12abcdfg89.execute-api.us-west-2.amazonaws.com/Prod/Upload
